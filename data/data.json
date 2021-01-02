@@ -1,0 +1,433 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "/start"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you around"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "indeed"
+      },
+      {
+        "intent": "affirm",
+        "text": "of course"
+      },
+      {
+        "intent": "affirm",
+        "text": "that sounds good"
+      },
+      {
+        "intent": "affirm",
+        "text": "correct"
+      },
+      {
+        "intent": "deny",
+        "text": "no"
+      },
+      {
+        "intent": "deny",
+        "text": "never"
+      },
+      {
+        "intent": "deny",
+        "text": "I don't think so"
+      },
+      {
+        "intent": "deny",
+        "text": "don't like that"
+      },
+      {
+        "intent": "deny",
+        "text": "no way"
+      },
+      {
+        "intent": "deny",
+        "text": "not really"
+      },
+      {
+        "intent": "faq/baseInfo",
+        "text": "what is the paybackng.com"
+      },
+      {
+        "intent": "faq/baseInfo",
+        "text": "please what is paybackng"
+      },
+      {
+        "intent": "faq/baseInfo",
+        "text": "hi, what is payback ng"
+      },
+      {
+        "intent": "faq/baseInfo",
+        "text": "what is payback nigeria"
+      },
+      {
+        "intent": "faq/wJoin",
+        "text": "who can join the program"
+      },
+      {
+        "intent": "faq/wJoin",
+        "text": "who can join this website"
+      },
+      {
+        "intent": "faq/wJoin",
+        "text": "Am I eligible to join the program"
+      },
+      {
+        "intent": "faq/wJoin",
+        "text": "who is eligible to join this website"
+      },
+      {
+        "intent": "faq/hJoin",
+        "text": "how do I join the program"
+      },
+      {
+        "intent": "faq/hJoin",
+        "text": "how to I join the website"
+      },
+      {
+        "intent": "faq/agreement",
+        "text": "what is the agreement for this program"
+      },
+      {
+        "intent": "faq/agreement",
+        "text": "what am I agreeing to by joining this program"
+      },
+      {
+        "intent": "faq/terms",
+        "text": "what are the terms of this program"
+      },
+      {
+        "intent": "faq/terms",
+        "text": "what are the terms of agreement of this program"
+      },
+      {
+        "intent": "faq/terms",
+        "text": "I need to know the terms of agreement of this program"
+      },
+      {
+        "intent": "faq/privacy",
+        "text": "how will you use the infomation I provide throught the program"
+      },
+      {
+        "intent": "faq/privacy",
+        "text": "how will you protect my data in this program"
+      },
+      {
+        "intent": "faq/privacy",
+        "text": "pls waht is the privacy policy of this program"
+      },
+      {
+        "intent": "faq/privacy",
+        "text": "how do you plan to secure my data through this program"
+      },
+      {
+        "intent": "faq/programInfo",
+        "text": "how does paybackng work ?"
+      },
+      {
+        "intent": "faq/programInfo",
+        "text": "how do I earn on this program"
+      },
+      {
+        "intent": "faq/programInfo",
+        "text": "Can I know how paybackng works ?"
+      },
+      {
+        "intent": "faq/programInfo",
+        "text": "how does the program work"
+      },
+      {
+        "intent": "faq/benefit",
+        "text": "what are the benefits of paybackng"
+      },
+      {
+        "intent": "faq/benefit",
+        "text": "what are the benefits of this program"
+      },
+      {
+        "intent": "faq/benefit",
+        "text": "what will I gain from this program"
+      },
+      {
+        "intent": "faq/benefit",
+        "text": "what are the advantages of this program"
+      },
+      {
+        "intent": "faq/redeem",
+        "text": "how do I caim my rewards"
+      },
+      {
+        "intent": "faq/redeem",
+        "text": "how do I redeem my rewards on paystackng"
+      },
+      {
+        "intent": "faq/redeem",
+        "text": "how do I get my reward for this program"
+      },
+      {
+        "intent": "faq/redeem",
+        "text": "how can I get my reward"
+      },
+      {
+        "intent": "faq/redeem",
+        "text": "how will I redeem my reward"
+      },
+      {
+        "intent": "faq/redeem",
+        "text": "how should I claim or redeem my reward"
+      },
+      {
+        "intent": "faq/redeem",
+        "text": "where , how am I going to get my reward for this program"
+      },
+      {
+        "intent": "faq/pointAvaliable",
+        "text": "when will my points be avaliavble"
+      },
+      {
+        "intent": "faq/pointAvaliable",
+        "text": "when will I get my points"
+      },
+      {
+        "intent": "faq/accountStatus",
+        "text": "how can I check my account status"
+      },
+      {
+        "intent": "faq/accountStatus",
+        "text": "how do I see my account status"
+      },
+      {
+        "intent": "faq/accountStatus",
+        "text": "how do I view my account status"
+      },
+      {
+        "intent": "faq/nsPoints",
+        "text": "Why are my points not showing"
+      },
+      {
+        "intent": "faq/nsPoints",
+        "text": "why can't I see my points when I signin to my account"
+      },
+      {
+        "intent": "faq/nsPoints",
+        "text": "why are my point not visible when I login to my account"
+      },
+      {
+        "intent": "faq/nsPoints",
+        "text": "I can't see my points on my account"
+      },
+      {
+        "intent": "faq/nsPoints",
+        "text": "I am not seeing my points on my account"
+      },
+      {
+        "intent": "faq/nsPoints",
+        "text": "I can not see my points on my dashboard"
+      },
+      {
+        "intent": "faq/expMembership",
+        "text": "will my membership account ever expire"
+      },
+      {
+        "intent": "faq/expMembership",
+        "text": "Is my membership ever going to expire"
+      },
+      {
+        "intent": "faq/expMembership",
+        "text": "does my membership ever expire"
+      },
+      {
+        "intent": "faq/expMembership",
+        "text": "does my account ever expire ?"
+      },
+      {
+        "intent": "faq/expMembership",
+        "text": "can my account ever expire"
+      },
+      {
+        "intent": "faq/expMembership",
+        "text": "What if my my membership expires"
+      },
+      {
+        "intent": "faq/revMembership",
+        "text": "Can my membership be revoked ?"
+      },
+      {
+        "intent": "faq/revMembership",
+        "text": "Looks like my membership has been revoked."
+      },
+      {
+        "intent": "faq/revMembership",
+        "text": "If my account is revoked"
+      },
+      {
+        "intent": "faq/afterRevMembership",
+        "text": "What happens to my point if my memebership has been revoked"
+      },
+      {
+        "intent": "faq/afterRevMembership",
+        "text": "What can happen if my membership has been cancled"
+      },
+      {
+        "intent": "faq/afterRevMembership",
+        "text": "Pls my membership has been reovoked, what can I do"
+      },
+      {
+        "intent": "faq/terProgram",
+        "text": "Can paystack.ng crash ?"
+      },
+      {
+        "intent": "faq/terProgram",
+        "text": "Will the program fold up"
+      },
+      {
+        "intent": "faq/terProgram",
+        "text": "Can the program be modified ?"
+      },
+      {
+        "intent": "faq/terProgram",
+        "text": "Can the programm be cancled"
+      },
+      {
+        "intent": "faq/terProgram",
+        "text": "If the program is cancled"
+      },
+      {
+        "intent": "faq/terProgram",
+        "text": "Can the program be terminated ?"
+      },
+      {
+        "intent": "faq/afterTerProgram",
+        "text": "What happens to my point if the program is cancled"
+      },
+      {
+        "intent": "faq/afterTerProgram",
+        "text": "What happend to my membership if the program is terminated"
+      },
+      {
+        "intent": "faq/afterTerProgram",
+        "text": "What can happen if the program is ended"
+      },
+      {
+        "intent": "faq/afterTerProgram",
+        "text": "what happend if the program shutsdown"
+      },
+      {
+        "intent": "faq/hUpAccountInfo",
+        "text": "How can I update my paybackng membership info ?"
+      },
+      {
+        "intent": "faq/hUpAccountInfo",
+        "text": "Is it possible to update membership info"
+      },
+      {
+        "intent": "faq/hUpAccountInfo",
+        "text": "How do I go about updating my account info"
+      },
+      {
+        "intent": "faq/hUpAccountInfo",
+        "text": "How can I update my account Information for paybackng"
+      },
+      {
+        "intent": "faq/hUpAccountInfo",
+        "text": "How can I modify my account data"
+      },
+      {
+        "intent": "faq/fPassword",
+        "text": "I have forgotten my password"
+      },
+      {
+        "intent": "faq/fPassword",
+        "text": "I don't have access to my password"
+      },
+      {
+        "intent": "faq/fPassword",
+        "text": "Please how can I reset my password"
+      },
+      {
+        "intent": "faq/fPassword",
+        "text": "Where can I change my password"
+      },
+      {
+        "intent": "faq/hTerMembership",
+        "text": "How can I delete my account"
+      },
+      {
+        "intent": "faq/hTerMembership",
+        "text": "How can I terminate my paybackng account"
+      },
+      {
+        "intent": "faq/hTerMembership",
+        "text": "I want to terminate my account"
+      },
+      {
+        "intent": "faq/hTerMembership",
+        "text": "How can I end my membership"
+      },
+      {
+        "intent": "faq/hTerMembership",
+        "text": "How can I cancle my account"
+      },
+      {
+        "intent": "faq/hTerMembership",
+        "text": "How can I cancle my membership"
+      },
+      {
+        "intent": "faq/wTerProgram",
+        "text": "What happend to my point after I teminate my account"
+      },
+      {
+        "intent": "faq/wTerProgram",
+        "text": "What happend if I cancle my memberhsip"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

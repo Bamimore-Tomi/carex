@@ -1,0 +1,41 @@
+actions:
+- respond_faq
+- utter_greet
+- utter_helpful
+- utter_reask
+- utter_thanks
+entities:
+- helpful
+intents:
+- greet
+- helpful
+- faq:
+    triggers: respond_faq
+- goodbye
+- affirm
+- deny
+responses:
+  utter_faq/baseInfo:
+    - text: Tesing payback ng base info
+  utter_greet:
+  - text: Hey! welcome to paybackng, how can I help you ?
+  utter_helpful:
+  - text: Was that helpful ?
+  - buttons:
+    - payload: '/helpful{"helpful": "True"}'
+      title: Yes, Thanks.
+    - payload: '/helpful{"helpful": "False"}'
+      title: No, try again.
+    text: Was the  the information provided useful ?
+  utter_reask:
+  - text: Ok, rephrase your question.
+  - text: Can you rephrase your question ?
+  utter_thanks:
+  - text: Thanks for joining paybackng.com.
+  - text: Thanks for patnering with paybackng.com.
+session_config:
+  carry_over_slots_to_new_session: true
+  session_expiration_time: 60
+slots:
+  helpful:
+    type: text
